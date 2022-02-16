@@ -4,8 +4,6 @@ document.querySelector("#botao").addEventListener("click", function(){
 
     function cliq(){
 
-        const semana = ["Domingo"] 
-
         const dia = new Date();
         let day = dia.getDate();
         let month = dia.getMonth()+1;
